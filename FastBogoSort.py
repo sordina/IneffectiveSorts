@@ -16,4 +16,5 @@ def FastBogoSort(l):
 				return l
 	return "Kernel page fault (error code: 2)"
 
-print FastBogoSort(sys.argv[1:])
+if __name__ == '__main__':
+	print FastBogoSort(sys.argv[1:])

@@ -12,4 +12,5 @@ def HalfHeartedMergeSort(l):
 	# UMMMMM
 	return [a,b] # Here. Sorry.
 
-print HalfHeartedMergeSort(sys.argv[1:])
+if __name__ == '__main__':
+	print HalfHeartedMergeSort(sys.argv[1:])

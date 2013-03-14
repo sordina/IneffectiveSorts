@@ -61,4 +61,5 @@ def JobInterviewQuickSort(l):
 		while halves[0][1:] or halves[1][1:]:
 			JobInterviewQuickSort(h)
 
-print JobInterviewQuickSort(sys.argv[1:])
+if __name__ == '__main__':
+	print JobInterviewQuickSort(sys.argv[1:])

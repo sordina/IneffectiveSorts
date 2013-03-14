@@ -13,4 +13,6 @@ Simply call the corresponding script with a list of arguments to be sorted:
 
 This should yeild some expertly sorted output in _no time!_
 
+<hr />
+
 <img src="http://imgs.xkcd.com/comics/ineffective_sorts.png" />

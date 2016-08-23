@@ -9,7 +9,7 @@ def IsSorted(l):
 
 def FastBogoSort(l):
 	# An optimized Bogosort
-	# Runs in O(N . Log N)
+	# Runs in O(N^2)
 	for n in range(1,(math.trunc(math.log(len(l))))+1):
 		random.shuffle(l)
 		if IsSorted(l):
